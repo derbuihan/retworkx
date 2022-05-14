@@ -79,6 +79,8 @@ pub mod dictmap;
 pub mod distancemap;
 mod min_scored;
 
+pub mod operators;
+
 // re-export petgraph so there is a consistent version available to users and
 // then only need to require retworkx-core in their dependencies
 pub use petgraph;
